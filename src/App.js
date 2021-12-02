@@ -1,22 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// import TCFunc from "./component/TodoContainerFunc";
+// import TCClass from "./component/TodoContainerClass";
+import NewComponentCl from "./component/NewComponentCl";
+import HookExample from "./component/HookExample";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Hello world from React</h1>
+        <NewComponentCl />
+        <HookExample />
       </header>
     </div>
   );
